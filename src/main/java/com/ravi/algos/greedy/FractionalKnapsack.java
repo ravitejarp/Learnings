@@ -3,7 +3,6 @@ package com.ravi.algos.greedy;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 
 public class FractionalKnapsack {
@@ -18,8 +17,6 @@ public class FractionalKnapsack {
         while (count-- > 0) {
             System.out.println("Enter the profit:");
             List<Double> doubleList = new ArrayList<>();
-            double key = 0;
-            double value = 0;
             if (scanner.hasNext()) {
                 doubleList.add(scanner.nextDouble());
             }
@@ -37,9 +34,11 @@ public class FractionalKnapsack {
 
     private int getTheKnap(List<List<Double>> listOfInputs, int W) {
         int finalVal = 0;
+
         List<Double> fractionsList = listOfInputs.stream().map(input -> input.get(0) / input.get(1)).sorted((v1, v2) -> Double.compare(v2, v1)).toList();
         System.out.println(fractionsList);
         // TODO Fix the actual problem now
+        List<Double> profitSortedList = listOfInputs.stream().map(input -> input.get(0)).sorted((v1, v2) -> Double.compare(v2, v1)).toList();
 
 
         return finalVal;

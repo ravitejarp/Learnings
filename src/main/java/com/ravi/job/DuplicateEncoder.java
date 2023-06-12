@@ -3,7 +3,7 @@ package com.ravi.job;
 import java.util.HashMap;
 
 public class DuplicateEncoder {
-	static String encode(String word) {
+	public static String encode(String word) {
 		String[] split = word.toLowerCase().split("");
 		String newWord = "";
 		HashMap<String, Integer> map = new HashMap<>();
