@@ -1,9 +1,10 @@
-package com.ravi.job;
+package tests;
 
 import static org.junit.Assert.assertEquals;
 
 import java.awt.geom.Point2D;
 
+import com.ravi.job.CoordinatesInspector;
 import org.junit.Test;
 
 public class CoordinatesTest {

@@ -155,7 +155,7 @@ public class PatternDemo {
 	 * is part of an unescaped construct.
 	 * 
 	 * Backslashes within string literals in Java source code are interpreted as
-	 * required by The Java™ Language Specification as either Unicode escapes
+	 * required by The Java Language Specification as either Unicode escapes
 	 * (section 3.3) or other character escapes (section 3.10.6) It is therefore
 	 * necessary to double backslashes in string literals that represent regular
 	 * expressions to protect them from interpretation by the Java bytecode
@@ -244,7 +244,7 @@ public class PatternDemo {
 	 * Equivalents.
 	 * 
 	 * Unicode escape sequences such as \u2014 in Java source code are processed
-	 * as described in section 3.3 of The Java™ Language Specification. Such
+	 * as described in section 3.3 of The Java Language Specification. Such
 	 * escape sequences are also implemented directly by the regular-expression
 	 * parser so that Unicode escapes can be used in expressions that are read
 	 * from files or from the keyboard. Thus the strings "\u2014" and "\\u2014",

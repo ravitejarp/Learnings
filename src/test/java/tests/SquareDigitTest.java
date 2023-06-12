@@ -1,7 +1,8 @@
-package com.ravi.job;
+package tests;
 
 import static org.junit.Assert.*;
 
+import com.ravi.job.SquareDigit;
 import org.junit.Test;
 
 public class SquareDigitTest {

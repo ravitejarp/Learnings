@@ -1,7 +1,8 @@
-package com.ravi.job;
+package tests;
 
 import static org.junit.Assert.assertEquals;
 
+import com.ravi.job.DuplicateEncoder;
 import org.junit.Test;
 
 public class DuplicateEncoderTest {

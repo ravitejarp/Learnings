@@ -1,7 +1,8 @@
-package com.ravi.job;
+package tests;
 
 import static org.junit.Assert.*;
 
+import com.ravi.job.GpsSpeed;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -22,7 +23,7 @@ public class GpsSpeedTest {
 	}
 
 	private static void testing(long actual, long expected) {
-		Assert.assertEquals(expected, actual);
+		assertEquals(expected, actual);
 	}
 
 }
